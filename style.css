@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Unkempt:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+:root{
+    --primary-color:#ac7339;
+    /* #994d00; */
+}
+
+body{
+    /* font-family: 'Unkempt', cursive; */
+    font-family: 'Fontdiner Swanky', cursive;
+    margin:0px;
+}
+
+textarea{
+    width: 80vh;
+    height:15vh;
+    display: block;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+#outputDiv {
+    height:15vh;
+    width: 80vh;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.buttonDiv{
+    display: block;
+    max-width: 510px;
+    margin: 1rem auto;
+}
+
+#btn-translate{
+    font-family: 'Fontdiner Swanky', cursive;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+.h3{
+    /* padding: 0.5rem; */
+    max-width: 510px;
+    margin: auto;
+    font-weight: bold;
+}
+.p{
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.header{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.footer{
+    background-color: #669900;
+    text-align: center;
+    padding: 1rem;
+}
